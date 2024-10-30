@@ -19,7 +19,7 @@ def run():
         else:
             output = 'negative 👎'
         sentiment=f'Predicted sentiment of "{userinput}" is {output}.'
-        st.success(predicted_sentiment)
+        st.success(output)
 
 if __name__ == "__main__":
     run()
